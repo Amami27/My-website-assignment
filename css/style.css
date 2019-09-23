@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* grid-auto-rows: minmax(100px auto); */
+}
+
+.gridbox  {
+    min-height: 90vh;
+    background: black;
+    color: white;
+    padding: 2em;
+}
+
+.content{
+margin: 20% 0;
+letter-spacing: 3px;
+font-size: 1.4em;
+}
+
+.enroll{
+    padding: 3em 0;
+}
+
+ button{
+    padding:.6em 2em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 0;
+}
+
+button:hover{
+    background: rgb(113, 189, 240);
+}
+
+.title_text { 
+line-height: 50px;
+}
+
+.two { 
+    background: url("../images/two.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.three {
+    background: url("../images/three.svg")
+}
+
+.sub4{
+    padding:5em 0 2em 0;
+}
+.sub4 p {
+    padding: 1.8em 0 0 0;
+}
+
+.sub4 h3{
+    padding: 4em 0 0 0;
+}
+.sub5 {
+    padding: 3em 0 2em 0;
+}
+.sub5 p {
+    padding: 1.8em 0 0 0;  
+}
+
+.sub6 {
+    padding: 4em 0 0 0;
+}
+.sub6 > h1 {
+    padding: 0 0 1em 0;
+    text-align: center;
+} 
+
+.sub6 > h3 {
+    padding: 2em 0 0em 0;
+    text-align: center;  
+}
+
+.sub6 > h5 {
+    padding: 1em 0 0 0;
+    text-align: center;   
+}
+
+.sub7 {
+    padding: 1em 0 0 0;   
+}
+
+.sub7 > input {
+    background:black;
+    padding: .5em;
+    margin: 1em 0 0 0; 
+    width: 50%;
+    color: white;
+    outline: 0;
+}
+
+textarea {
+    color: white;
+    background:black;
+    padding: .5em;
+    margin: 1em 0 0 0;
+    width: 50%;
+    outline: 0;
+}
+.six {
+    background: url("../images/six.svg")
+}
+
+.seven {
+background: url("../images/seven.png")
+}
+
+.eight{
+    text-align: center;
+}
+
+.dot{
+    padding: 1em;
+}
+
+.eight p{
+    padding: 1em 0 2em;
+}
+
+p{
+    line-height: 25px;
+}
+
+.sub8 {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    text-align: center;
+    padding: 4em 0 0 0;
+    line-height: 25px;
+}
+.nine > p {
+    text-align: center; 
+}
+
+
+.ten {
+background: url("../images/ten.svg")
+}
+
+i{
+    color: white;
+}
